@@ -302,10 +302,10 @@ class Parallax {
         helpers.accelerate(layer)
       }
 
-      layer.style.position = index ? 'absolute' : 'relative'
+//       layer.style.position = index ? 'absolute' : 'relative'
       layer.style.display = 'block'
-      layer.style.left = 0
-      layer.style.top = 0
+//       layer.style.left = 0
+//       layer.style.top = 0
 
       let depth = helpers.data(layer, 'depth') || 0
       this.depthsX.push(helpers.data(layer, 'depth-x') || depth)
